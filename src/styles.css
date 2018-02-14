@@ -1,0 +1,26 @@
+.ReactHhmmssSelect {
+  display: flex;
+}
+.ReactHhmmssSelect .time-section {
+  display: flex;
+}
+.ReactHhmmssSelect .time-section .dividing-character {
+  margin-left: 0.25em;
+  margin-right: 0.25em;
+}
+.ReactHhmmssSelect .time-section-hh{
+
+}
+.ReactHhmmssSelect .time-section-mm{
+
+}
+.ReactHhmmssSelect .time-section-ss{
+
+}
+.ReactHhmmssSelect select {
+  width: 100%;
+  min-width: 45px;
+  max-width: 65px;
+  border: 1px solid #ccc;
+  background: white;
+}
