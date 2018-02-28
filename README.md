@@ -11,7 +11,7 @@ React component to select hh:mm:ss
 `import HhmmssSelect from 'react-hhmmss-select'`
 
 ### Basic
-```
+```jsx
 <HhmmssSelect
   valueHhmmss={ existingString /* ex. HH:mm:ss */
     ? existingString 
@@ -20,7 +20,7 @@ React component to select hh:mm:ss
 />
 
 ```
-```
+```js
 yourEventHandler = ({ units, valueHhmmss })=>(e)=>{
  // units = 'hh', 'mm' or 'ss'
  // valueHhmmss = the existing value before the change event, or 00:00:00 if none
@@ -39,7 +39,7 @@ yourEventHandler = ({ units, valueHhmmss })=>(e)=>{
 }
 ```
 ### With params
-```
+```jsx
 <HhmmssSelect
   options={{
     hh: { hidden: false, label: 'Heures' /* NOTE default is Enlglish */}, 
@@ -56,7 +56,7 @@ yourEventHandler = ({ units, valueHhmmss })=>(e)=>{
 
 ## Source code
 
-```
+```jsx
 import React from 'react'
 import PropTypes from 'prop-types'
 import range from 'lodash.range' // npm i --save lodash.range
