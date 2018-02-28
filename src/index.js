@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import range from 'lodash.range' // npm i --save lodash.range
+import range from 'lodash.range'
 import './styles.css'
 
 class ReactHhmmssSelect extends React.Component {

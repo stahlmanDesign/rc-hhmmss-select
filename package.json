@@ -1,14 +1,12 @@
 {
   "name": "react-hhmmss-select",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React component to select hh:mm:ss",
   "main": "build/index.js",
   "peerDependencies": {
     "react": "^16.2.0"
   },
   "dependencies": {
-    "react": "^16.2.0",
-    "webpack": "^3.11.0",
     "lodash.range": "^3.2.0"
   },
   "scripts": {
@@ -24,7 +22,9 @@
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.5.1",
     "css-loader": "^0.28.9",
-    "style-loader": "^0.20.1"
+    "style-loader": "^0.20.1",
+    "react": "^16.2.0",
+    "webpack": "^3.11.0"
   },
   "repository": {
     "type": "git",
