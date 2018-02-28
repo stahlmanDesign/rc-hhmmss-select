@@ -520,7 +520,7 @@ var ReactHhmmssSelect = function (_React$Component) {
       var valueHhmmssSplit = valueHhmmss.split(':');
 
       var selectSections = [];
-      console.log(opts);
+
       if (!options.hh.hidden) selectSections.push(_react2.default.createElement(
         'select',
         { className: 'select-hh',
@@ -2513,7 +2513,7 @@ module.exports = function (css) {
 			.replace(/^'(.*)'$/, function(o, $1){ return $1; });
 
 		// already a full url? no change
-		if (/^(#|data:|http:\/\/|https:\/\/|file:\/\/\/)/i.test(unquotedOrigUrl)) {
+		if (/^(#|data:|http:\/\/|https:\/\/|file:\/\/\/|\s*$)/i.test(unquotedOrigUrl)) {
 		  return fullMatch;
 		}
 
