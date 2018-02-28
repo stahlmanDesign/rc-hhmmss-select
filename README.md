@@ -54,6 +54,18 @@ yourEventHandler = ({ units, valueHhmmss })=>(e)=>{
 
 ```
 
+### Select Props
+
+| Property | Type | Default | Description |
+|:---|:---|:---|:---|
+| tabIndex | number | 0 | -1 it will be skipped when tab pressed, 0 - order defined by document, 1+ you control tab order |
+| unitsSeparator | string | ':' | The character that separates hh:mm:ss |
+| options | object | hidden(bool), label(string) | use to localise the word for Hours, Minutes, Seconds, or hide hh, mm or ss |
+| valueHhmmss | string | '00:00:00' | the value to be displayed |
+| style | object | {} | your styles |
+| className | string | '' | your additional class names |
+| onChange | function | ({ valueHhmmss, units })=>(e)=>{} | event handler that comes with some props |
+
 ## Source code
 
 ```jsx
