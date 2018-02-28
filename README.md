@@ -54,7 +54,7 @@ yourEventHandler = ({ units, valueHhmmss })=>(e)=>{
 
 ```
 
-### Select Props
+### Props
 
 | Property | Type | Default | Description |
 |:---|:---|:---|:---|
