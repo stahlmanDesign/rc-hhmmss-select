@@ -1,6 +1,6 @@
 {
-  "name": "react-hhmmss-select",
-  "version": "1.0.1",
+  "name": "@stahlmandesign/rc-hhmmss-select",
+  "version": "1.0.2",
   "description": "React component to select hh:mm:ss",
   "main": "build/index.js",
   "peerDependencies": {
@@ -28,12 +28,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stahlmanDesign/react-hhmmss-select.git"
+    "url": "git+https://github.com/stahlmanDesign/@stahlmandesign/rc-hhmmss-select.git"
   },
   "author": "Justin Stahlman <jstahlman@mac.com> (http://www.stahlmandesign.com)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stahlmanDesign/react-hhmmss-select/issues"
+    "url": "https://github.com/stahlmanDesign/@stahlmandesign/rc-hhmmss-select/issues"
   },
-  "homepage": "https://github.com/stahlmanDesign/react-hhmmss-select#readme"
+  "homepage": "https://github.com/stahlmanDesign/@stahlmandesign/rc-hhmmss-select#readme"
 }

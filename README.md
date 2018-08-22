@@ -1,14 +1,14 @@
-# react-hhmmss-select
+# @stahlmandesign/rc-hhmmss-select
 React component to select hh:mm:ss
 
 # Git repository
-- https://github.com/stahlmanDesign/react-hhmmss-select
+- https://github.com/stahlmandesign/rc-hhmmss-select
 
 # Installation
-- `npm install --save react-hhmmss-select`
+- `npm install --save @stahlmandesign/rc-hhmmss-select`
 
 # Usage
-`import HhmmssSelect from 'react-hhmmss-select'`
+`import HhmmssSelect from '@stahlmandesign/rc-hhmmss-select'`
 
 ### Basic
 ```jsx
